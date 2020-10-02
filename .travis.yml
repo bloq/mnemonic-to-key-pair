@@ -28,5 +28,5 @@ jobs:
         on:
           tags: true
         provider: script
-        script: npm publish --access public --otp "$NPM_OTP"
+        script: npm publish --otp "$NPM_OTP"
         skip_cleanup: true
