@@ -1,6 +1,7 @@
 'use strict'
 
 require('./typedefs')
+/* global KeyPair */
 
 const bip39 = require('bip39')
 const hdkey = require('hdkey')

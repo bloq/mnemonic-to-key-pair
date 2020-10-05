@@ -1,12 +1,13 @@
 'use strict'
 
 const chai = require('chai')
+
 const fixtures = require('./fixtures.json')
 const mnemonicToKeyPair = require('..')
 
 chai.should()
 
-describe('Package', function () {
+describe('Mnemonic to key pair', function () {
   it('should get the key pair from a mnemonic', function () {
     const {
       mnemonic,
